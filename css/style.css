@@ -322,6 +322,11 @@ a:hover {
     z-index: 1;
 }
 
+.form-group {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 .nav>li {
     float: left;
     margin-top: 4px;
@@ -785,7 +790,7 @@ h4 {
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .ltc-white {
@@ -804,25 +809,20 @@ h4 {
     color: #c27956!important;
 }
 
-.icon-dark-slate-blue {
-    color: #364577!important;
-    border-color: #364577!important;
-}
-
 .bg-dots-bg {
-    background-image: url("/img/dots-bg.png");
+    background-image: url("../img/dots-bg.png");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("/img/lines-h2-bg.png");
+    background-image: url("../img/lines-h2-bg.png");
 }
 
 .bg-banniere {
-    background-image: url("/img/agence-la-panthere.jpg");
+    background-image: url("../img/agence-la-panthere.jpg");
 }
 
 .bg-presentation {
-    background-image: url("/img/image-de-presentation.jpeg");
+    background-image: url("../img/image-de-presentation.jpeg");
 }
 
 .bordur-btn {
@@ -1050,6 +1050,12 @@ li {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+    .M1 {
+        font-size: 16px;
+    }
+    .bg-presentation {
+        background-image: none;
     }
 }
 
